@@ -7,7 +7,7 @@ export const Footer = () => {
       <div className="container">
         <div className="inline-flex relative before:content-[''] before:top-2 before:bottom-0 before:w-full before:blur before:bg-[linear-gradient(to_right,#F87BFF,#FB92CF,#FFDD9B,#C2F0B1,#2FD8FE)] before:absolute">
           <Image
-            src="/assets/AdsOnTV.jpg"
+            src="/assets/AdsOnTV.png"
             alt="SignageHub logo"
             width={40}
             height={40}

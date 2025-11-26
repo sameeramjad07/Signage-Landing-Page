@@ -8,7 +8,7 @@ export const Header = () => {
         <div className="container">
           <div className="flex items-center justify-between">
             <Image
-              src="/assets/AdsOnTV.jpg"
+              src="/assets/AdsOnTV.png"
               alt="SignageHub logo"
               height={40}
               width={40}
