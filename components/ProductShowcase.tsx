@@ -37,9 +37,9 @@ export const ProductShowcase = () => {
 
         <div className="relative">
           <Image
-            src="/assets/product-image.png"
+            src="/assets/image.png"
             alt="SignageHub dashboard"
-            className="mt-10"
+            className="mt-10 rounded-xl" // Added rounded corners
             width={1280}
             height={720}
           />

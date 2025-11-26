@@ -1,6 +1,7 @@
 "use client";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
+import Link from "next/link";
 
 export const Hero = () => {
   const heroRef = useRef(null);
@@ -35,12 +36,11 @@ export const Hero = () => {
               real-time across all locations.
             </p>
             <div className="flex gap-1 items-center mt-[30px]">
-              <button className="px-4 py-2 rounded-lg font-medium inline-flex items-center justify-center tracking-tight bg-black text-white">
-                Get started free
-              </button>
-              <button className="px-4 py-2 rounded-lg font-medium inline-flex items-center justify-center tracking-tight text-black bg-transparent flex gap-1">
-                <span>Learn more</span>
-              </button>
+              <Link href="https://ads-on-tv.web.app/#/auth/login">
+                <button className="px-4 py-2 rounded-lg font-medium inline-flex items-center justify-center tracking-tight bg-black text-white cursor-pointer">
+                  Get started
+                </button>
+              </Link>
             </div>
           </div>
           <div className="relative flex justify-center md:flex-1 overflow-visible">
