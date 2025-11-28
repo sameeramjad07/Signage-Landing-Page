@@ -46,22 +46,6 @@ export const CallToAction = () => {
             }}
           />
         </div>
-
-        <div className="flex gap-2 mt-10 justify-center">
-          <button className="px-4 py-2 rounded-lg font-medium inline-flex items-center justify-center tracking-tight bg-black text-white">
-            Start Free Trial
-          </button>
-          <button className="px-4 py-2 rounded-lg font-medium inline-flex items-center justify-center tracking-tight text-black bg-transparent gap-1">
-            <span>Schedule Demo</span>
-            <Image
-              src="/assets/arrow-right.svg"
-              alt="Arrow Right"
-              width={16}
-              height={16}
-              className="h-5 w-5"
-            />
-          </button>
-        </div>
       </div>
     </section>
   );
